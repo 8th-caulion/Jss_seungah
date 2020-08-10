@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+/* a의 css 추가하니까 밑에 .plus_btn은 다 안먹어지는거 같은데.. */
+
+.make_jss, .all_jss{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex; /*자식요소들을 컨트롤 할 수 있음*/
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.all_jss{
+    display: inline-flex;
+}
+
+.plus_btn{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+}
+
+p{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
