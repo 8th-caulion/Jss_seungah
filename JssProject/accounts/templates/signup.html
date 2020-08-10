@@ -1,0 +1,7 @@
+<!-- 유저관련된 정보니까 무조건 POST로 합시다. -->
+<!-- action의 공백 : 이 페이지를 렌더링 시킨 함수를 자동 사용 -->
+<form method="POST" action=""> 
+    {% csrf_token %}
+{{regi_form.as_p}}
+<input type="submit" 회원가입>
+</form>
